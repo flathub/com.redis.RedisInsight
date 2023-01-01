@@ -1,9 +1,9 @@
 app-id: com.redis.RedisInsight-v2
 runtime: org.freedesktop.Platform
-runtime-version: "22.08"
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: "22.08"
+base-version: '22.08'
 command: redisinsight
 separate-locales: false
 finish-args:
@@ -40,7 +40,7 @@ modules:
       - type: file
         only-arches: [x86_64]
         url: https://download.redisinsight.redis.com/latest/RedisInsight-v2-linux-x86_64.AppImage
-        sha512: f53022ee9c54dc832b96b4e874f62bd3e238cffdde379d6b3dfdc22f8956c938a07436ef62a317e6a3b87d7c76cda40ad1a4512285cfb8e234773066bc137388
+        sha512: d1494560883afb73b1d222b7c739e66ac2b843c32049bfb536b4a719f5d94fa52776f5c5d4b1a63c7264c30376a545bbb5f3296cc1909358acc13f953bda5e25
         dest_filename: RedisInsight.AppImage
         x-checker-data:
           type: rotating-url
