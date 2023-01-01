@@ -54,9 +54,10 @@
         </screenshot>
     </screenshots>
 
-    <content_rating type="oars-1.1" />
+    <content_rating type="oars-1.1"/>
 
     <releases>
-        <release version="2.14.0" date="2022-11-30" />
+        <release version="2.16.0.70401" date="2022-12-28"/>
+        <release version="2.14.0" date="2022-11-30"/>
     </releases>
 </component>
