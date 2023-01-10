@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-    <id>com.redis.RedisInsight-v2</id>
+    <id>com.redis.RedisInsight</id>
 
     <name>RedisInsight</name>
     <summary>Developer GUI for Redis, by Redis.</summary>
@@ -14,8 +14,8 @@
     </categories>
 
     <description>
-        <p>RedisInsight is an intuitive and efficient GUI for Redis, allowing you to interact with
-            your databases and manage your data—with built-in support for Redis modules.</p>
+        <p>RedisInsight is a powerful tool for visualizing and optimizing data in Redis or Redis Stack, making real-time application development easier and more fun than ever before.
+            RedisInsight lets you do both GUI- and CLI-based interactions in a fully featured desktop UI client that provides capabilities to help you design, develop, and optimize your Redis application.</p>
         <p>
             <b>RedisInsight Highlights:</b>
         </p>
@@ -46,7 +46,7 @@
     <url type="vcs-browser">https://github.com/RedisInsight/RedisInsight</url>
     <url type="bugtracker">https://github.com/RedisInsight/RedisInsight/issues</url>
 
-    <launchable type="desktop-id">com.redis.RedisInsight-v2.desktop</launchable>
+    <launchable type="desktop-id">com.redis.RedisInsight.desktop</launchable>
     <screenshots>
         <screenshot type="default">
             <image>
