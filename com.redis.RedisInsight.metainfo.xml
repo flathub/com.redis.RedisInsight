@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-    <id>com.redis.RedisInsight-v2</id>
+    <id>com.redis.RedisInsight</id>
 
     <name>RedisInsight</name>
     <summary>Developer GUI for Redis, by Redis.</summary>
@@ -46,7 +46,7 @@
     <url type="vcs-browser">https://github.com/RedisInsight/RedisInsight</url>
     <url type="bugtracker">https://github.com/RedisInsight/RedisInsight/issues</url>
 
-    <launchable type="desktop-id">com.redis.RedisInsight-v2.desktop</launchable>
+    <launchable type="desktop-id">com.redis.RedisInsight.desktop</launchable>
     <screenshots>
         <screenshot type="default">
             <image>
