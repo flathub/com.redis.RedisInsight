@@ -40,7 +40,7 @@ modules:
       - type: file
         only-arches: [x86_64]
         url: https://download.redisinsight.redis.com/latest/RedisInsight-linux-x86_64.AppImage
-        sha512: 6e4ae3a0bb2eb8a2e8fb8dbb1a9f7fa37515c36afea389f23676b0f0b4c8fd76ac927a9b4f568a6e058b5b865ea6eee8bab0342d7e73ff5bf03152bc10f9ed37
+        sha512: f8cabd12fb7cc7053b7ee0d4002a4f6389b96a9a44a2f70737fabf6062046d4a2f0ce5db76cc246fdb8543116e0cc92525131c6448d59f4acd923e5aa5c5da8f
         dest_filename: RedisInsight.AppImage
         x-checker-data:
           type: rotating-url
