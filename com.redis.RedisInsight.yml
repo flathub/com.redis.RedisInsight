@@ -15,7 +15,6 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications
   - --socket=x11
 modules:
-  - shared-modules/libsecret/libsecret.json
   - name: redisinsight
     buildsystem: simple
     build-commands:
