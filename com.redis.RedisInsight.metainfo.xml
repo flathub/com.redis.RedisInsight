@@ -2,7 +2,7 @@
 <component type="desktop-application">
     <id>com.redis.RedisInsight</id>
 
-    <name>RedisInsight</name>
+    <name>Redis Insight</name>
     <summary>Developer GUI for Redis, by Redis.</summary>
 
     <metadata_license>CC0-1.0</metadata_license>
@@ -22,23 +22,26 @@
         <ul>
             <li>Browse, filter, visualise your key-value Redis data structures and see key values in
                 different formats (including JSON, Hex, ASCII, etc.)</li>
-            <li>CRUD support for Lists, Hashes, Strings, Sets, Sorted Sets, and Streams</li>
-            <li>CRUD support for RedisJSON</li>
+            <li>CRUD support for lists, hashes, strings, sets, sorted sets, and streams</li>
+            <li>CRUD support for [JSON](https://redis.io/json/) data structure</li>
+            <li>Interactive tutorials to learn easily, among other things, how to leverage the native JSON data structure 
+                supporting structured querying and full-text search, including vector similarity search for your AI use cases</li>
+            <li>Contextualised recommendations to optimize performance and memory usage. The list of recommendations gets updated 
+                as you interact with your database</li>
             <li>Profiler - analyze every command sent to Redis in real-time</li>
             <li>SlowLog - analyze slow operations in Redis instances based on the Slowlog command</li>
             <li>Pub/Sub - support for Redis pub/sub, enabling subscription to channels and posting
                 messages to channels</li>
             <li>Bulk actions - Delete the keys in bulk based on the filters set in Browser or Tree
                 view</li>
-            <li>Introducing Workbench - advanced command line interface with intelligent command
+            <li>Workbench - advanced command line interface with intelligent command
                 auto-complete, complex data visualizations and support for the raw mode</li>
-            <li>Command auto-complete support for RediSearch, RedisJSON, RedisGraph,
-                RedisTimeSeries, RedisAI</li>
-            <li>Visualizations of your RediSearch index, queries, and aggregations</li>
+            <li>Command auto-complete support for [search and query](https://redis.io/search/) capability, [JSON](https://redis.io/json/) and 
+                [time series](https://redis.io/timeseries/) data structures</li>
+            <li>Visualizations of your [search and query](https://redis.io/search/) indexes and results</li>
             <li>Ability to build your own data visualization plugins</li>
             <li>Built-in click-through guides for Redis capabilities</li>
-            <li>Oficially supported for Redis OSS, Redis Cloud. Works with Microsoft Azure Cache for
-                Redis (official support upcoming).</li>
+            <li>Officially supported for Redis OSS, [Redis Cloud](https://redis.io/cloud/). Works with Microsoft Azure Cache for Redis</li>
         </ul>
     </description>
 
