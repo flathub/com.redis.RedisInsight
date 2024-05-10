@@ -5,7 +5,7 @@
     <name>Redis Insight</name>
     <summary>Developer GUI for Redis, by Redis.</summary>
 
-    <metadata_license>CC0-1.0</metadata_license>
+    <metadata_license>SSPL-1.0</metadata_license>
     <project_license>SSPL-1.0</project_license>
     <developer_name>Redis, Inc</developer_name>
 
