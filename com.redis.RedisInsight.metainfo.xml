@@ -53,27 +53,27 @@
     <screenshots>
         <screenshot type="default">
             <image>
-                https://github.com/flathub/com.redis.RedisInsight/blob/master/main_screen.png</image>   
+                https://github.com/flathub/com.redis.RedisInsight/blob/master/flathub/main_screen.png</image>   
         </screenshot>
          <screenshot>
             <image>
-               https://github.com/flathub/com.redis.RedisInsight/blob/master/tree_view.png</image>
+               https://github.com/flathub/com.redis.RedisInsight/blob/master/flathub/tree_view.png</image>
         </screenshot>
         <screenshot>
             <image>
-               https://github.com/flathub/com.redis.RedisInsight/blob/master/wb1.png</image>
+               https://github.com/flathub/com.redis.RedisInsight/blob/master/flathub/wb1.png</image>
         </screenshot>
         <screenshot>
             <image>
-                https://github.com/flathub/com.redis.RedisInsight/blob/master/wb2.png</image>
+                https://github.com/flathub/com.redis.RedisInsight/blob/master/flathub/wb2.png</image>
         </screenshot>
         <screenshot>
             <image>
-                https://github.com/flathub/com.redis.RedisInsight/blob/master/analysis.png</image>
+                https://github.com/flathub/com.redis.RedisInsight/blob/master/flathub/analysis.png</image>
         </screenshot>
         <screenshot>
             <image>
-                https://github.com/flathub/com.redis.RedisInsight/blob/master/tips.png</image>            
+                https://github.com/flathub/com.redis.RedisInsight/blob/master/flathub/tips.png</image>            
         </screenshot>
     </screenshots>
 
