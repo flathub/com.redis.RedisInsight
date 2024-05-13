@@ -13,7 +13,7 @@ finish-args:
   - --device=dri
   - --talk-name=org.freedesktop.secrets
   - --talk-name=org.freedesktop.Notifications
-  - --socket=fallback-x11
+  - --socket=wayland
 modules:
   - name: redis insight
     buildsystem: simple
