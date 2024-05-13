@@ -14,6 +14,7 @@ finish-args:
   - --talk-name=org.freedesktop.secrets
   - --talk-name=org.freedesktop.Notifications
   - --socket=wayland
+  - --socket=fallback-x11
 modules:
   - name: redis insight
     buildsystem: simple
