@@ -9,7 +9,7 @@ separate-locales: false
 finish-args:
   - --share=ipc
   - --share=network
-  - --filesystem=home
+  - --filesystem=host
   - --device=dri
   - --talk-name=org.freedesktop.secrets
   - --talk-name=org.freedesktop.Notifications
