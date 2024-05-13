@@ -55,27 +55,6 @@
             <image>
                 https://github.com/flathub/com.redis.RedisInsight/blob/master/flathub/main_screen.png</image>   
         </screenshot>
-         <screenshot>
-            <image>
-               https://github.com/flathub/com.redis.RedisInsight/blob/master/flathub/tree_view.png</image>
-        </screenshot>
-        <screenshot>
-            <image>
-               https://github.com/flathub/com.redis.RedisInsight/blob/master/flathub/wb1.png</image>
-        </screenshot>
-        <screenshot>
-            <image>
-                https://github.com/flathub/com.redis.RedisInsight/blob/master/flathub/wb2.png</image>
-        </screenshot>
-        <screenshot>
-            <image>
-                https://github.com/flathub/com.redis.RedisInsight/blob/master/flathub/analysis.png</image>
-        </screenshot>
-        <screenshot>
-            <image>
-                https://github.com/flathub/com.redis.RedisInsight/blob/master/flathub/tips.png</image>            
-        </screenshot>
-
     </screenshots>
 
     <content_rating type="oars-1.1"/>
