@@ -53,27 +53,27 @@
     <screenshots>
         <screenshot type="default">
             <image>
-                /.flathub/com.redis.RedisInsight/blob/master/flathub/main_screen.png</image>   
+                /.flathub/main_screen.png</image>   
         </screenshot>
          <screenshot>
             <image>
-                /.flathub/com.redis.RedisInsight/blob/master/flathub/tree_view.png</image>
+                /.flathub/tree_view.png</image>
         </screenshot>
         <screenshot>
             <image>
-                /.flathub/com.redis.RedisInsight/blob/master/flathub/wb1.png</image>
+                /.flathub/wb1.png</image>
         </screenshot>
         <screenshot>
             <image>
-                /.flathub/com.redis.RedisInsight/blob/master/flathub/wb2.png</image>
+                /.flathub/wb2.png</image>
         </screenshot>
         <screenshot>
             <image>
-                /.flathub/com.redis.RedisInsight/blob/master/flathub/analysis.png</image>
+                /.flathub/analysis.png</image>
         </screenshot>
         <screenshot>
             <image>
-                /.flathub/com.redis.RedisInsight/blob/master/flathub/tips.png</image>            
+                /.flathub/tips.png</image>            
         </screenshot>
     </screenshots>
 
