@@ -3,8 +3,8 @@
 [![Discord](https://img.shields.io/discord/697882427875393627?style=flat-square)](https://discord.gg/QUkjSsk)
 
 
-Redis Insight is a visual tool that provides capabilities to design, develop, and optimize your Redis application
-Query, analyse and interact with your Redis data
+Redis Insight is a visual tool that provides capabilities to design, develop, and optimize your Redis application.
+Query, analyse and interact with your Redis data.
 
 ![Redis Insight Browser screenshot](https://github.com/RedisInsight/RedisInsight/blob/main/.github/redisinsight_browser.png)
 
@@ -12,7 +12,7 @@ Built with love using [Electron](https://www.electronjs.org/), [Monaco Editor](h
 
 ## Overview
 
-Redis Insight is an intuitive and efficient GUI for Redis, allowing you to interact with your databases and manage your data—with built-in support for Redis modules
+Redis Insight is an intuitive and efficient GUI for Redis, allowing you to interact with your databases and manage your data—with built-in support for Redis modules.
 
 ### Redis Insight Highlights:
 
@@ -35,7 +35,7 @@ Check out the [release notes](https://github.com/RedisInsight/RedisInsight/relea
 
 ## Get started with Redis Insight
 
-Find instructions on how to install, build, and debug Redis Insight in [our repository](https://github.com/RedisInsight/RedisInsight)
+Find instructions on how to install, build, and debug Redis Insight in [our repository](https://github.com/RedisInsight/RedisInsight).
 
 ## Feedback
 
@@ -49,4 +49,4 @@ If you would like to contribute to the code base or fix and issue, please consul
 
 ## License 
 
-License is described [here](https://github.com/RedisInsight/RedisInsight/blob/main/LICENSE)
+License is described [here](https://github.com/RedisInsight/RedisInsight/blob/main/LICENSE).
