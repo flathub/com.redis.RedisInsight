@@ -6,7 +6,7 @@
 Redis Insight is a visual tool that provides capabilities to design, develop, and optimize your Redis application.
 Query, analyse and interact with your Redis data.
 
-![Redis Insight Browser screenshot](https://github.com/RedisInsight/RedisInsight/blob/main/.github/redisinsight_browser.png)
+![Redis Insight Browser screenshot](https://github.com/flathub/com.redis.RedisInsight/raw/master/flathub/tree_view.png)
 
 Built with love using [Electron](https://www.electronjs.org/), [Monaco Editor](https://microsoft.github.io/monaco-editor/) and NodeJS
 
