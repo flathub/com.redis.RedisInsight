@@ -1,4 +1,4 @@
-# <img src="https://redis.com/wp-content/uploads/2019/11/ico-redisinsight.svg" alt="logo" width="25"/>  Redis Insight - Developer GUI for Redis, by Redis.
+# <img src="https://redis.com/wp-content/uploads/2019/11/ico-redisinsight.svg" alt="logo" width="25"/>  Redis Insight - Developer GUI for Redis, by Redis
 [![Forum](https://img.shields.io/badge/Forum-RedisInsight-red)](https://forum.redis.com/c/redisinsight/65)
 [![Discord](https://img.shields.io/discord/697882427875393627?style=flat-square)](https://discord.gg/QUkjSsk)
 
@@ -6,9 +6,9 @@
 Redis Insight is a visual tool that provides capabilities to design, develop, and optimize your Redis application.
 Query, analyse and interact with your Redis data.
 
-![Redis Insight Browser screenshot](https://github.com/RedisInsight/RedisInsight/blob/main/.github/redisinsight_browser.png)
+![Redis Insight Browser screenshot](https://github.com/flathub/com.redis.RedisInsight/raw/master/flathub/tree_view.png)
 
-Built with love using [Electron](https://www.electronjs.org/), [Monaco Editor](https://microsoft.github.io/monaco-editor/) and NodeJS.
+Built with love using [Electron](https://www.electronjs.org/), [Monaco Editor](https://microsoft.github.io/monaco-editor/) and NodeJS
 
 ## Overview
 
@@ -31,7 +31,7 @@ Redis Insight is an intuitive and efficient GUI for Redis, allowing you to inter
 * Ability to build [your own data visualization plugins](https://github.com/RedisInsight/Packages)
 * Officially supported for Redis OSS, [Redis Cloud](https://redis.io/cloud/). Works with Microsoft Azure Cache for Redis
 
-Check out the [release notes](https://github.com/RedisInsight/RedisInsight/releases). 
+Check out the [release notes](https://github.com/RedisInsight/RedisInsight/releases)
 
 ## Get started with Redis Insight
 

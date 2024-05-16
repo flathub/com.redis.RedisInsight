@@ -3,7 +3,7 @@
     <id>com.redis.RedisInsight</id>
 
     <name>Redis Insight</name>
-    <summary>Developer GUI for Redis, by Redis.</summary>
+    <summary>Developer GUI for Redis, by Redis</summary>
 
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>SSPL-1.0</project_license>
@@ -53,7 +53,27 @@
     <screenshots>
         <screenshot type="default">
             <image>
-                https://github.com/RedisInsight/RedisInsight/raw/main/.github/redisinsight_browser.png</image>
+                https://github.com/flathub/com.redis.RedisInsight/raw/master/flathub/main_screen.png</image>
+        </screenshot>
+        <screenshot>
+            <image>
+                https://github.com/flathub/com.redis.RedisInsight/raw/master/flathub/tree_view.png</image>
+        </screenshot>
+        <screenshot>
+            <image>
+                https://github.com/flathub/com.redis.RedisInsight/raw/master/flathub/wb1.png</image>
+        </screenshot>
+        <screenshot>
+            <image>
+                https://github.com/flathub/com.redis.RedisInsight/raw/master/flathub/wb2.png</image>
+        </screenshot>
+        <screenshot>
+            <image>
+                https://github.com/flathub/com.redis.RedisInsight/raw/master/flathub/analysis.png</image>
+        </screenshot>
+        <screenshot>
+            <image>
+                https://github.com/flathub/com.redis.RedisInsight/raw/master/flathub/tips.png</image>
         </screenshot>
     </screenshots>
 
