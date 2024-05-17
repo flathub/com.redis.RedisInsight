@@ -9,12 +9,11 @@ separate-locales: false
 finish-args:
   - --share=ipc
   - --share=network
-  - --filesystem=host
+  - --filesystem=home
   - --device=dri
   - --talk-name=org.freedesktop.secrets
   - --talk-name=org.freedesktop.Notifications
-  - --socket=wayland
-  - --socket=fallback-x11
+  - --socket=x11
 modules:
   - name: redis insight
     buildsystem: simple
