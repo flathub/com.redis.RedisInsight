@@ -81,7 +81,15 @@
 
     <releases>
         <release version="2.50.0.113335" date="2024-05-30">
-            <description></description>
+         <description>
+          <p>Release notes</p>
+              <ul>
+                  <li>New tutorial exploring several common Redis use cases with paired-up sample data that will get you started quicker with your empty database.</li>
+                  <li>UX enhancements for the JSON data structure in the Browser to prevent collapsing the entire structure when updating a JSON value. Includes performance optimizations for loading JSON documents containing numerous objects.</li>
+                  <li>Added a quick access button to sign in to your Redis Cloud account from anywhere within Redis Insight, to import existing databases or create a new account with a free database. Integration with your Redis Cloud account is currently available only in the desktop Redis Insight version.</li>
+                  <li>Changed the sorting order in the Tree view to lexicographical.</li>
+              </ul>
+         </description>
         </release>
         <release version="2.48.0.109205" date="2024-04-11"/>
         <release version="2.46.0.107453" date="2024-03-28"/>
