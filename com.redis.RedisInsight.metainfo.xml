@@ -81,7 +81,15 @@
 
     <releases>
         <release version="2.52.0.116527" date="2024-06-28">
-            <description></description>
+            <description>
+             <p>Release notes</p>
+                <ul>
+                    <li>Redis Insight now supports setting expiration for individual hash fields through intuitive Browser controls. The hash field expiration is a highly requested feature available in the first release candidate of Redis 7.4.</li>
+                    <li>Redis, with its high performance and versatile data structures, is an excellent choice for implementing Retrieval Augmented Generation (RAG). Our new built-in tutorial provides an overview of how Redis can be leveraged in a RAG use case. To get started, open the "Insights" panel in the top right corner and try the new tutorial.</li>
+                    <li>UX optimizations for displaying the values of keys in the Browser. The new layout includes controls for editing key values that appear only when you hover over them, optimizing the use of space and providing a cleaner interface.</li>
+                    <li>Support for applying the JSON formatting in Browser for values of keys with float numbers that contain 10 or more decimal places.</li>
+                </ul>
+            </description>
         </release>
         <release version="2.50.0.113335" date="2024-05-30">
          <description>
