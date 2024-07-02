@@ -9,7 +9,7 @@ separate-locales: false
 finish-args:
   - --share=ipc
   - --share=network
-  - --filesystem=home/.redis-insight
+  - --filesystem=home
   - --device=dri
   - --talk-name=org.freedesktop.secrets
   - --talk-name=org.freedesktop.Notifications
