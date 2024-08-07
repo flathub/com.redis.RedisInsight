@@ -81,7 +81,7 @@
 
     <releases>
         <release version="2.54.0.119100" date="2024-08-06">
-            <url type=“details”>https://redis.io/data-integration/</url>
+            <url type=“details”>https://redis.io/data-integration</url>
             <description>
                 <p>Release notes</p>
                 <ul>
