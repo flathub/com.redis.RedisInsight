@@ -83,7 +83,9 @@
         <release version="2.54.0.119100" date="2024-08-06">
             <description>
                 <p>Release notes</p>
-                <p>Redis Insight now comes with the support for Redis Data Integration (RDI) - a powerful tool designed to seamlessly synchronize data from your existing database to Redis in near real-time. RDI establishes a data streaming pipeline that mirrors data from your existing database to Redis Software, so if a record is added or updated, those changes automatically flow into Redis. This no-code solution enables seamless data integration and faster data access so you can build real-time apps at any scale. Use RDI version 1.2.7 or later to seamlessly create, validate, deploy, and monitor your data pipelines within Redis Insight. To get started, switch to the "Redis Data Integration" tab on the page with the list of Redis databases and add your RDI endpoint to Redis Insight. </p>
+                <ul>
+                    <li>Redis Insight now comes with the support for Redis Data Integration (RDI) - a powerful tool designed to seamlessly synchronize data from your existing database to Redis in near real-time. RDI establishes a data streaming pipeline that mirrors data from your existing database to Redis Software, so if a record is added or updated, those changes automatically flow into Redis. This no-code solution enables seamless data integration and faster data access so you can build real-time apps at any scale. Use RDI version 1.2.7 or later to seamlessly create, validate, deploy, and monitor your data pipelines within Redis Insight. To get started, switch to the "Redis Data Integration" tab on the page with the list of Redis databases and add your RDI endpoint to Redis Insight. </li>
+                </ul>
             </description>
         </release>
         <release version="2.52.0.116527" date="2024-06-28">
