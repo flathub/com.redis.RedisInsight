@@ -81,7 +81,15 @@
 
     <releases>
         <release version="2.56.0.122216" date="2024-09-09">
-            <description></description>
+            <description>
+                <ul>
+                    <li>Hide or show TTL for individual hash fields to create a cleaner, more efficient workspace.</li>
+                    <li>Enhanced vector data representation with updated 32-bit and 64-bit vector formatters in the Browser.</li>
+                    <li>UX optimizations to make it easier and more intuitive to connect to your Redis Data Integration (RDI) instance within Redis Insight.</li>
+                    <li>A new timestamp formatter in the Browser to improve data readability. This formatter converts timestamps in hash fields to a human-readable format, making it easier to interpret results, validate and optimize queries, and inspect indexed data when using the search and query capability.</li>
+                    <li>Date and time format customization to make the data more intuitive in Redis Insight. This flexibility helps match your local time zone or standardize it to UTC for better alignment in time-critical operations across global teams.</li>
+                </ul>
+            </description>
         </release>
         <release version="2.54.0.119100" date="2024-08-06">
             <description>
