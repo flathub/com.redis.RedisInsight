@@ -81,7 +81,13 @@
 
     <releases>
         <release version="2.60.0.127946" date="2024-10-31">
-            <description></description>
+            <description>
+                <ul>
+                    <li>Advanced and schema-aware command auto-complete for Redis Query Engine is now available in Workbench, enabling faster and more accurate query building with smart suggestions for indexes, schemas, and expressions.</li>
+                    <li>Support for adding multiple elements to the head or tail of lists, for both new or existing keys.</li>
+                    <li>Multiple UI enhancements for clarity and ease of use when editing Redis Data Integration (RDI) jobs.</li>
+                </ul>
+            </description>
         </release>
         <release version="2.58.0.124102" date="2024-10-01">
             <description>
