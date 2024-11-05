@@ -1,9 +1,9 @@
 app-id: com.redis.RedisInsight
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '23.08'
+base-version: '24.08'
 command: redisinsight
 separate-locales: false
 finish-args:
@@ -13,6 +13,7 @@ finish-args:
   - --device=dri
   - --talk-name=org.freedesktop.secrets
   - --talk-name=org.freedesktop.Notifications
+  - --system-talk-name=org.freedesktop.UPower
   - --socket=x11
 modules:
   - name: redis insight
@@ -21,8 +22,7 @@ modules:
       - chmod +x RedisInsight.AppImage
       - ./RedisInsight.AppImage --appimage-extract
 
-      - desktop-file-edit --set-icon ${FLATPAK_ID} --set-key Exec --set-value 'redisinsight
-        %u' squashfs-root/redisinsight.desktop
+      - desktop-file-edit --set-icon ${FLATPAK_ID} --set-key Exec --set-value 'redisinsight %u' squashfs-root/redisinsight.desktop
       - install -Dm644 squashfs-root/redisinsight.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
 
       - install -Dm755 redisinsight.sh ${FLATPAK_DEST}/bin/redisinsight
