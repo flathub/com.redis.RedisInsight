@@ -22,7 +22,8 @@ modules:
       - chmod +x RedisInsight.AppImage
       - ./RedisInsight.AppImage --appimage-extract
 
-      - desktop-file-edit --set-icon ${FLATPAK_ID} --set-key Exec --set-value 'redisinsight %u' squashfs-root/redisinsight.desktop
+      - desktop-file-edit --set-icon ${FLATPAK_ID} --set-key Exec --set-value 'redisinsight
+        %u' squashfs-root/redisinsight.desktop
       - install -Dm644 squashfs-root/redisinsight.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
 
       - install -Dm755 redisinsight.sh ${FLATPAK_DEST}/bin/redisinsight
@@ -39,7 +40,7 @@ modules:
       - type: file
         only-arches: [x86_64]
         url: https://download.redisinsight.redis.com/latest/Redis-Insight-linux-x86_64.AppImage
-        sha512: 19b35a6ef6637b185ea9c8303ed946f0118edb79d0c40f9db815ceb7af74a4fb8b5697acf8499fa123281c874f99de6230779ced625e860da0dc05a387dc2439
+        sha512: 6ccea56f27801c55ff7f4b017a1bbd6bd89f1ec0ef5fca3fdaa9fdd6c76dca245c214f9fdf5f8287b2b8348e2fdb6eab823e8bbe414358336ae95438a722c03c
         dest_filename: RedisInsight.AppImage
         x-checker-data:
           type: rotating-url
