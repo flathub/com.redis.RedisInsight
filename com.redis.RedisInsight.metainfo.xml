@@ -81,7 +81,12 @@
 
     <releases>
         <release version="2.64.0" date="2024-12-19">
-            <description></description>
+            <description>
+                <ul>
+                    <li>Improved the database connections list and simplified the connection form, delivering a cleaner, more intuitive UI for improved focus.</li>
+                    <li>New in-app reminders to prevent your free Redis Cloud database from being deleted due to inactivity, ensuring you can make the most of it to test your ideas.</li>
+                </ul>
+            </description>
         </release>
         <release version="2.62.0" date="2024-11-28">
             <description/>
