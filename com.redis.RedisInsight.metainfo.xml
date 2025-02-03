@@ -81,7 +81,16 @@
 
     <releases>
         <release version="2.66.0" date="2025-01-31">
-            <description></description>
+            <description>
+                <ul>
+                    <li>Switch between Redis databases and Redis Data Integration (RDI) instances without returning to the database or RDI endpoint list.</li>
+                    <li>Improved performance when working with nested JSON data types in Browser.</li>
+                    <li>Added an option to hide key size and TTL in Browser to optimize space. Hiding key size can also help avoid performance issues when working with large keys.<li>
+                    <li>Enhanced UX for adding Redis databases, now displaying information in multiple tabs.</li>
+                    <li>Added the ability to customize the refresh interval or stop refreshing database overview metrics, allowing to change the frequency or avoid seeing the INFO command in Profiler.</li>
+                    <li>Updated Brotli decompression to use brotli-wasm.</li>
+                </ul>
+            </description>
         </release>
         <release version="2.64.1" date="2024-12-27">
             <description/>
