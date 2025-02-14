@@ -23,7 +23,7 @@
             <li>Browse, filter, visualise your key-value Redis data structures and see key values in
                 different formats (including JSON, Hex, ASCII, etc.)</li>
             <li>CRUD support for lists, hashes, strings, sets, sorted sets, and streams</li>
-            <li>CRUD support for [JSON](https://redis.io/json/) data structure</li>
+            <li>CRUD support for JSON data structure</li>
             <li>Interactive tutorials to learn easily, among other things, how to leverage the native JSON data structure 
                 supporting structured querying and full-text search, including vector similarity search for your AI use cases</li>
             <li>Contextualised recommendations to optimize performance and memory usage. The list of recommendations gets updated 
@@ -36,12 +36,12 @@
                 view</li>
             <li>Workbench - advanced command line interface with intelligent command
                 auto-complete, complex data visualizations and support for the raw mode</li>
-            <li>Command auto-complete support for [search and query](https://redis.io/search/) capability, [JSON](https://redis.io/json/) and 
-                [time series](https://redis.io/timeseries/) data structures</li>
-            <li>Visualizations of your [search and query](https://redis.io/search/) indexes and results</li>
+            <li>Command auto-complete support for search and query capability, JSON and 
+                time series data structures</li>
+            <li>Visualizations of your search and query indexes and results</li>
             <li>Ability to build your own data visualization plugins</li>
             <li>Built-in click-through guides for Redis capabilities</li>
-            <li>Officially supported for Redis OSS, [Redis Cloud](https://redis.io/cloud/). Works with Microsoft Azure Cache for Redis</li>
+            <li>Officially supported for Redis OSS, Redis Cloud. Works with Microsoft Azure Cache for Redis</li>
         </ul>
     </description>
 
