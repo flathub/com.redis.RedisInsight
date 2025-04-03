@@ -86,9 +86,7 @@
                     <li>You can now test the connectivity to your source database when setting up a Redis Data Integration (RDI) data pipeline in Redis Insight. This will help ensure that RDI can connect to the source database and keep your Redis cache updated with changes from the source database.</li>
                     <li>Configure database connections via environment variables or a JSON file, allowing for centralized and efficient configuration management. This is specifically useful for automated deployments.</li>
                     <li>Added the ability to download a file containing all keys deleted through bulk actions, which helps in tracking changes.</li>
-                </ul>
-
-                
+                </ul>  
             </description>
         </release>
         <release version="2.66.0" date="2025-01-31">
