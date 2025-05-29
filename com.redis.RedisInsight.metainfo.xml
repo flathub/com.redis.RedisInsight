@@ -83,7 +83,7 @@
         <release version="2.70.0" date="2025-05-28">
             <description>
                 <ul>
-                    <li>Added support for tagging database connections, making it easier to organize and quickly find what you need. Tags can be created locally in Redis Insight or imported from Redis Cloud or Redis Software. <li>
+                    <li>Added support for tagging database connections, making it easier to organize and quickly find what you need. Tags can be created locally in Redis Insight or imported from Redis Cloud or Redis Software. </li>
                     <li>Added the ability to hide columns in the database list to optimize screen space.</li>
                     <li>Introduced highly requested improvements for working with JSON, including full-value editing and the ability to search within a JSON key. </li>
                     <li>Added a confirmation prompt when attempting to create a duplicate key in a JSON object, preventing silent overwrites.</li>
