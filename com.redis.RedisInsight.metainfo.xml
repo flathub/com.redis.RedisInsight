@@ -80,6 +80,9 @@
     <content_rating type="oars-1.1"/>
 
     <releases>
+        <release version="2.70.1" date="2025-07-10">
+            <description></description>
+        </release>
         <release version="2.70.0" date="2025-05-28">
             <description>
                 <ul>
