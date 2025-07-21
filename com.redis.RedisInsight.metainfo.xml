@@ -81,10 +81,14 @@
 
     <releases>
         <release version="2.70.1" date="2025-07-11">
-            <description></description>
-        </release>
-        <release version="2.70.1" date="2025-07-10">
-            <description/>
+            <description>
+                <ul>
+                    <li>Redis Data Integration metrics are now shown even when the pipeline status is not running.</li>
+                    <li>Resolved layout issues in the bulk import summary view.</li>
+                    <li>Fixed an issue with a setting to manually enforce standalone mode for clustered database connections instead of automatic clustered mode.</li>
+                    <li>Various security enhancements, including vulnerability fixes and dependency updates.</li>
+                </ul>  
+            </description>
         </release>
         <release version="2.70.0" date="2025-05-28">
             <description>
