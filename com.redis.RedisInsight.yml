@@ -1,9 +1,9 @@
 app-id: com.redis.RedisInsight
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '24.08'
+base-version: '25.08'
 command: redisinsight
 separate-locales: false
 finish-args:
@@ -39,13 +39,23 @@ modules:
     sources:
       - type: file
         only-arches: [x86_64]
-        url: https://download.redisinsight.redis.com/latest/Redis-Insight-linux-x86_64.AppImage
-        sha512: 84427f22fc062844609a5ebb948d7a64d5e8b11a43444acfaf966afa93639f44d35ae09363091f9f55007adbf052b3c87437b06b6afdd65408d010d8976466d1
+        url: https://download.redisinsight.redis.com/latest-v3/Redis-Insight-linux-x86_64.AppImage
+        sha512: c6a5d057399785414cecb61f7bdb85c3c6128e121ac197a51cfbe73470885d6a670ce01f521660d9f65fe27876e636a64b7057ddc9a125b74aeeed6796cdd832
         dest_filename: RedisInsight.AppImage
         x-checker-data:
           type: rotating-url
-          url: https://download.redisinsight.redis.com/latest/Redis-Insight-linux-x86_64.AppImage
-          pattern: https://download.redisinsight.redis.com/latest/Redis-Insight-linux-x86_64.AppImage
+          url: https://download.redisinsight.redis.com/latest-v3/Redis-Insight-linux-x86_64.AppImage
+          pattern: https://download.redisinsight.redis.com/latest-v3/Redis-Insight-linux-x86_64.AppImage
+
+      - type: file
+        only-arches: [aarch64]
+        url: https://download.redisinsight.redis.com/latest-v3/Redis-Insight-linux-arm64.AppImage
+        sha512: 0727ac2c61decda8954b2d86f8308b5f217b371814481e09be9ae1cadaba00b96e8f22a695e5f4381c321e4f459096c98e085e5372e5ad461b014ea6ad3839f0
+        dest_filename: RedisInsight.AppImage
+        x-checker-data:
+          type: rotating-url
+          url: https://download.redisinsight.redis.com/latest-v3/Redis-Insight-linux-arm64.AppImage
+          pattern: https://download.redisinsight.redis.com/latest-v3/Redis-Insight-linux-arm64.AppImage
 
       - type: file
         path: redisinsight.sh

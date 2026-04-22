@@ -80,6 +80,66 @@
     <content_rating type="oars-1.1"/>
 
     <releases>
+        <release version="3.4.2" date="2026-04-22">
+            <description>
+                <ul>
+                    <li>Fixed issues with the Windows auto-update, so the new version is delivered automatically the next time the app is started.</li>
+                </ul>
+            </description>
+        </release>
+        <release version="3.4.1" date="2026-04-20">
+            <description>
+                <ul>
+                    <li>New dedicated Search workspace with full index lifecycle support: create indexes from sample data or existing user data, query indexed data with an assisted editor, and save queries to a Query Library for reuse.</li>
+                    <li>Navigate between Browser and Search workspaces: review indexed data in the Browser, view indexed keys and their associated indexes, and create indexes directly from the Browser key list.</li>
+                    <li>Azure Entra ID authentication support for Docker deployments, Access Key authentication as an alternative to Entra ID, and a manual connection form for Azure Redis databases.</li>
+                    <li>Added Linux ARM64 release support with AppImage, deb, and rpm packages.</li>
+                    <li>Client-side column sorting for the Browser key list by Key, TTL, or Size directly from the Columns popover.</li>
+                    <li>Workbench output settings now persist between commands and no longer crash when external plugins are loaded.</li>
+                </ul>
+            </description>
+        </release>
+        <release version="3.2.0" date="2026-02-26">
+            <description>
+                <ul>
+                    <li>Added support for Azure Managed Redis and Azure Cache for Redis tiers, including auto-discovery of databases across subscriptions with one-click import.</li>
+                    <li>Microsoft Entra ID (OAuth) authentication with automatic background token refresh, and multi-account support to switch between Azure accounts.</li>
+                    <li>Simplified the build process by removing the Webpack dependency - Vite is now used for both development and production builds.</li>
+                    <li>Addressed critical security vulnerabilities by upgrading Node.js and the Alpine base image used in Docker.</li>
+                </ul>
+            </description>
+        </release>
+        <release version="3.0.3" date="2026-02-16">
+            <description>
+                <ul>
+                    <li>Redis Data Integration now uses API v2 when available, showing detailed pipeline status, component statuses, and richer metrics on the Statistics page.</li>
+                    <li>Bulk delete from Tree View: delete all keys under a folder or namespace via a delete action on the folder, which opens Bulk Actions with the pattern pre-filled.</li>
+                    <li>LZ4 decompression support for MessagePack-CSharp format, so LZ4-compressed MessagePack values display correctly.</li>
+                    <li>Restored Pub/Sub functionality: message clear option, full message display with line wrapping, and descending chronological order.</li>
+                    <li>Fallback to DEL when UNLINK is unavailable, restoring compatibility with Redis 3.2.12 and similar versions.</li>
+                    <li>Default database sorting now places the most recently used databases at the top of the list.</li>
+                </ul>
+            </description>
+        </release>
+        <release version="3.0.2" date="2026-01-08">
+            <description>
+                <ul>
+                    <li>Fixed a SQLite package "not found" error on macOS x64 builds.</li>
+                    <li>Corrected CPU metrics that were inaccurate when Redis I/O threads or cluster shards pushed usage above 100%.</li>
+                    <li>Delimiter options now persist when switching between databases.</li>
+                    <li>Enabled dual-stack IPv4/IPv6 support in ioredis connections.</li>
+                </ul>
+            </description>
+        </release>
+        <release version="3.0.0" date="2025-12-04">
+            <description>
+                <ul>
+                    <li>Major UI refresh with modernized visuals and a more intuitive workflow for inspecting keys, debugging data, and moving quickly between tasks. The design aligns Redis Insight with the Redis Cloud experience.</li>
+                    <li>New top-level navigation replaces the left sidebar, making high-usage tools like Browser and Workbench easier to discover and access.</li>
+                    <li>Electron upgrade that resolves a macOS 26 compatibility issue, improved database list search for not-connected databases, and fixes for Redis Data Integration 1.14+ job reopening.</li>
+                </ul>
+            </description>
+        </release>
         <release version="2.70.1" date="2025-07-11">
             <description>
                 <ul>
