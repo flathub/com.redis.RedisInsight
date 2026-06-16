@@ -80,6 +80,17 @@
     <content_rating type="oars-1.1"/>
 
     <releases>
+        <release version="3.6.0" date="2026-06-15">
+            <description>
+                <ul>
+                    <li>Full support for Vector Sets, the new Redis 8 vector-native data type: create them manually or from a bundled sample dataset, add elements, and run similarity search by raw vector or element name.</li>
+                    <li>New Dev vs Production database mode with safety guardrails: classify databases by environment, with PROD and Development labels and a type-to-confirm prompt before destructive actions on production.</li>
+                    <li>New Geodata Workbench plugin renders Redis GEO command results as an interactive map, density heatmap, or details card.</li>
+                    <li>Added Copy and Download value actions for JSON keys, plus a Copy value action for String keys.</li>
+                    <li>Settings now shows the build commit SHA next to the app version, and fixed missing scrollbars on the database list and other tables at constrained viewport heights.</li>
+                </ul>
+            </description>
+        </release>
         <release version="3.4.2" date="2026-04-22">
             <description>
                 <ul>
