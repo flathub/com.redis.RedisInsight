@@ -80,6 +80,19 @@
     <content_rating type="oars-1.1"/>
 
     <releases>
+        <release version="3.8.0" date="2026-07-21">
+            <description>
+                <ul>
+                    <li>Support for the new Array data type in Redis 8.8: create, browse, search, aggregate, and edit Arrays</li>
+                    <li>What's New popup showing feature highlights after each upgrade</li>
+                    <li>Option to choose between IPv4 and IPv6 when connecting to a database</li>
+                    <li>New Markdown value format for viewing values of any key type</li>
+                    <li>Editable host and port for existing database connections</li>
+                    <li>Copy diagnostics button in Settings for easier issue reporting</li>
+                    <li>Azure Entra ID sign-in support for multi-tenant setups</li>
+                </ul>
+            </description>
+        </release>
         <release version="3.6.0" date="2026-06-15">
             <description>
                 <ul>
