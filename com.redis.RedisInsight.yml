@@ -47,7 +47,6 @@ modules:
         x-checker-data:
           type: rotating-url
           url: https://download.redisinsight.redis.com/latest-v3/Redis-Insight-linux-x86_64.AppImage
-          pattern: https://download.redisinsight.redis.com/latest-v3/Redis-Insight-linux-x86_64.AppImage
 
       - type: file
         only-arches: [aarch64]
@@ -57,7 +56,6 @@ modules:
         x-checker-data:
           type: rotating-url
           url: https://download.redisinsight.redis.com/latest-v3/Redis-Insight-linux-arm64.AppImage
-          pattern: https://download.redisinsight.redis.com/latest-v3/Redis-Insight-linux-arm64.AppImage
 
       - type: file
         path: redisinsight.sh
